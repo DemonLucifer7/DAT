@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Advark&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tracker_style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">DAILY TRACKER</h1>
+        <div class="header">
+            <div class="date-selector">
+                <label for="date">Date - </label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="completion-percentage">
+                <span id="completed">Completed - 0%</span>
+            </div>
+        </div>
+
+        <div id="activity-list">
+            <!-- Default activities go here -->
+        </div>
+
+        <button class="add-activity" id="add-activity-btn">ADD ACTIVITIES</button>
+    </div>
+    <script src="tracker_script.js"></script>
+</body>
+</html>

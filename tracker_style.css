@@ -1,0 +1,95 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #88aafc;
+    margin-bottom: 20px;
+    font-family: 'Advark', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.date-selector label {
+    color: #88aafc;
+}
+
+.completion-percentage {
+    color: #88aafc;
+}
+
+#activity-list {
+    margin-bottom: 20px;
+}
+
+.activity {
+    margin-bottom: 15px;
+}
+
+.activity-name {
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.progress-bar-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress-bar {
+    width: 85%;
+    height: 15px;
+    background-color: #d8d8d8;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #5b8bf7;
+    transition: width 0.3s ease;
+}
+
+.status-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.status-indicator.completed {
+    background-color: green;
+}
+
+.remaining-value {
+    color: #d8d8d8;
+    margin-top: 5px;
+}
+
+.add-activity {
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
